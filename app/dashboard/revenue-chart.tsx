@@ -2,12 +2,6 @@ import { generateYAxis } from '@/app/lib/utils';
 import { CalendarIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/fonts';
 import { fetchRevenue } from '@/app/lib/data';
-import {
-  RevenueChartSkeleton,
-  LatestInvoicesSkeleton,
-} from '@/app/skeletons';
-
-
 
 export default async function RevenueChart() {
   const revenue = await fetchRevenue();

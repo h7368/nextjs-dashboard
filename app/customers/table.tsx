@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { lusitana } from '@/app/fonts';
 import Search from '@/app/search';
 import {
-  CustomersTableType,
+
   FormattedCustomersTable,
 } from '@/app/lib/definitions';
 
